@@ -58,38 +58,9 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         }, 2000);
         
-        // Reset stem animation
-        const stem = document.querySelector('.stem');
-        stem.style.animation = 'none';
-        stem.offsetHeight;
-        stem.style.animation = 'stemGrow 2s ease-in-out forwards';
-        
-        // Reset leaf animations
-        const leaves = document.querySelectorAll('.leaf');
-        leaves.forEach((leaf, index) => {
-            leaf.style.animation = 'none';
-            leaf.offsetHeight;
-            leaf.style.animation = 'leafGrow 1s ease-in-out forwards';
-            leaf.style.animationDelay = `${2.2 + index * 0.2}s`;
-        });
-    });
-    
-    // Add snow effect
-    function createSnowflake() {
-        const snowflake = document.createElement('div');
-        snowflake.classList.add('snowflake');
-        snowflake.style.left = Math.random() * 100 + 'vw';
-        snowflake.style.animationDuration = Math.random() * 3 + 2 + 's';
-        snowflake.style.opacity = Math.random();
-        snowflake.style.fontSize = Math.random() * 10 + 10 + 'px';
-        snowflake.innerHTML = '❄';
-        document.body.appendChild(snowflake);
-        
-        setTimeout(() => {
-            snowflake.remove();
-        }, 5000);
-    }
+     
     
     // Create snowflakes periodically
     setInterval(createSnowflake, 200);
+
 }); 
