@@ -1,23 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const flower = document.querySelector('.flower');
-    const petals = document.querySelectorAll('.petal');
-    
-    // Set rotation variables for petals
-    petals.forEach((petal, index) => {
-        const rotation = index * (360 / petals.length);
-        petal.style.setProperty('--rotation', `${rotation}deg`);
-    });
-    
-    // Add hover effect with gentle swaying
-    flower.addEventListener('mouseover', () => {
-        flower.style.transform = 'scale(1.1)';
-        flower.style.animation = 'flowerSway 2s ease-in-out infinite';
-    });
-    
-    flower.addEventListener('mouseout', () => {
-        flower.style.transform = 'scale(1)';
-        flower.style.animation = 'none';
-    });
+
     
     // Function to make petals fall
     function makePetalFall(petal) {
@@ -27,11 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     // Add click effect to restart animation and make petals fall
-    flower.addEventListener('click', () => {
-        // Reset flower animation
-        flower.style.animation = 'none';
-        flower.offsetHeight;
-        flower.style.animation = 'flowerGrow 3s ease-in-out forwards';
+   
         
         // Make existing petals fall
         petals.forEach(petal => {
@@ -64,3 +41,4 @@ document.addEventListener('DOMContentLoaded', () => {
     setInterval(createSnowflake, 200);
 
 }); 
+
