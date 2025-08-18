@@ -1,25 +1,6 @@
 
     
-    // Function to make petals fall
-    function makePetalFall(petal) {
-        petal.style.animation = 'none';
-        petal.offsetHeight;
-        petal.style.animation = 'petalFall 2s ease-in forwards';
-    }
-    
-    // Add click effect to restart animation and make petals fall
-   
-        
-        // Make existing petals fall
-        petals.forEach(petal => {
-            if (petal.style.opacity !== '0') {
-                makePetalFall(petal);
-            }
-        });
-        
-        // Reset petal animations with enhanced blooming
-        setTimeout(() => {
-            petals.forEach((petal, index) => {
+  
                 petal.style.animation = 'none';
                 petal.offsetHeight;
                 if (petal.classList.contains('core-petal')) {
@@ -41,4 +22,5 @@
     setInterval(createSnowflake, 200);
 
 }); 
+
 
