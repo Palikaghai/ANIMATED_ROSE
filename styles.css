@@ -1,11 +1,5 @@
 * {
-    margin: 0;
-    pad
-    background: radial-gradient(white, transparent 60%);
-    animation: snow 8s linear infinite;
-    pointer-events: none;
-    opacity: 0.3;
-
+   
 
 @keyframes snow {
     0% {
@@ -262,4 +256,5 @@
     }
 
 } 
+
 
