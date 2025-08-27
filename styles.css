@@ -1,20 +1,4 @@
-* 
-    background: #ffd700;
-    
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
-}
 
-.petal {
-    position: absolute;
-    background: #ff0000;
-    border-radius: 50% 50% 50% 50%;
-    transform-origin: center;
-    opacity: 0;
-    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
-    top: 50%;
-    left: 50%;
 }
 
 /* Core petals */
@@ -229,6 +213,7 @@
     }
 
 } 
+
 
 
 
