@@ -1,29 +1,4 @@
-* {
-   
-
-@keyframes snow {
-    0% {
-        transform: translateY(-100%);
-    }
-    100% {
-        transform: translateY(100%);
-    }
-}
-
-.container {
-    position: relative;
-}
-
-.flower {
-    position: relative;
-    transform-origin: center bottom;
-    animation: flowerGrow 3s ease-in-out forwards;
-}
-
-.center {
-    position: absolute;
-    width: 25px;
-    height: 25px;
+* 
     background: #ffd700;
     border-radius: 50%;
     top: 50%;
@@ -256,5 +231,6 @@
     }
 
 } 
+
 
 
