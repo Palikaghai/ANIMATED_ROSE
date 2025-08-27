@@ -4,7 +4,7 @@
 
 .core-petal1 { transform: translate(-50%, -50%) rotate(0deg) scale(0); animation-delay: 0.3s; }
 .core-petal2 { transform: translate(-50%, -50%) rotate(120deg) scale(0); animation-delay: 0.5s; }
-.core-petal3 { transform: translate(-50%, -50%) rotate(240deg) scale(0); animation-delay: 0.7s; }
+
 
 /* Inner petals */
 .inner-petal {
@@ -206,6 +206,7 @@
     }
 
 } 
+
 
 
 
