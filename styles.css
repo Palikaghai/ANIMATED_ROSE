@@ -1,12 +1,6 @@
 
 
-/* Core petals */
-.core-petal {
-    width: 30px;
-    height: 30px;
-    animation: corePetalBloom 2s ease-in-out forwards;
-    z-index: 3;
-}
+
 
 .core-petal1 { transform: translate(-50%, -50%) rotate(0deg) scale(0); animation-delay: 0.3s; }
 .core-petal2 { transform: translate(-50%, -50%) rotate(120deg) scale(0); animation-delay: 0.5s; }
@@ -212,6 +206,7 @@
     }
 
 } 
+
 
 
 
