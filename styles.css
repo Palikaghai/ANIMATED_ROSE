@@ -6,15 +6,7 @@
 
 
 
-
-/* Middle petals */
-.mid
-}
-
-.middle-petal1 { transform: translate(-50%, -50%) rotate(0deg) scale(0); animation-delay: 1s; }
-.middle-petal2 { transform: translate(-50%, -50%) rotate(60deg) scale(0); animation-delay: 1.2s; }
-.middle-petal3 { transform: translate(-50%, -50%) rotate(120deg) scale(0); animation-delay: 1.4s; }
-.middle-petal4 { transform: translate(-50%, -50%) rotate(180deg) scale(0); animation-delay: 1.6s; }
+ -50%) rotate(180deg) scale(0); animation-delay: 1.6s; }
 .middle-petal5 { transform: translate(-50%, -50%) rotate(240deg) scale(0); animation-delay: 1.8s; }
 .middle-petal6 { transform: translate(-50%, -50%) rotate(300deg) scale(0); animation-delay: 2s; }
 
@@ -180,6 +172,7 @@
         transform: translateY(100vh) rotate(360deg);
     }
 }
+
 
 
 
