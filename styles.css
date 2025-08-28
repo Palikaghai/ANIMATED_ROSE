@@ -21,11 +21,8 @@
 .outer-petal1 { transform: translate(-50%, -50%) rotate(0deg) scale(0); animation-delay: 1.5s; }
 .outer-petal2 { transform: translate(-50%, -50%) rotate(60deg) scale(0); animation-delay: 1.7s; }
 .outer-petal3 { transform: translate(-50%, -50%) rotate(120deg) scale(0); animation-delay: 1.9s; }
-.outer-petal4 { transform: translate(-50%, -50%) rotate(180deg) scale(0); animation-delay: 2.1s; }
-.outer-petal5 { transform: translate(-50%, -50%) rotate(240deg) scale(0); animation-delay: 2.3s; }
-.outer-petal6 { transform: translate(-50%, -50%) rotate(300deg) scale(0); animation-delay: 2.5s; }
+.o
 
-.stem {
     position: absolute;
     width: 8px;
     height: 200px;
@@ -172,6 +169,7 @@
         transform: translateY(100vh) rotate(360deg);
     }
 }
+
 
 
 
