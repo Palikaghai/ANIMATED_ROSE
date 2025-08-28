@@ -2,21 +2,8 @@
 
 
 
-        opacity: 1;
-    }
-    100% {
-        transform: translate(-50%, -50%) rotate(var(--rotation)) translateY(100px) scale(0.5);
-        opacity: 0;
-    }
-}
 
-@keyframes stemGrow {
-    0% {
-        transform: translateX(-50%) scaleY(0);
-    }
-    100% {
-        transform: translateX(-50%) scaleY(1);
-    }
+
 }
 
             @keyframes leafGrow {
@@ -35,6 +22,7 @@
         transform: translateY(100vh) rotate(360deg);
     }
 }
+
 
 
 
