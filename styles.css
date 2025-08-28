@@ -1,21 +1,6 @@
 
 
 
-    background: #2e7d32;
-    bottom: -200px;
-    left: 50%;
-    transform: translateX(-50%);
-    transform-origin: top;
-    animation: stemGrow 2s ease-in-out forwards;
-}
-
-.leaf {
-    position: absolute;
-    width: 30px;
-    height: 60px;
-    background: #4caf50;
-    border-radius: 0 50% 0 50%;
-    transform-origin: left;
     opacity: 0;
     animation: leafGrow 1s ease-in-out forwards;
 }
@@ -131,6 +116,7 @@
         transform: translateY(100vh) rotate(360deg);
     }
 }
+
 
 
 
