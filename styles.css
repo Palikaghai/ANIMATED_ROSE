@@ -115,20 +115,7 @@
     }
 }
 
-@keyframes leafGrow {
-    0% {
-        opacity: 0;
-        transform: translateX(-50%) scale(0);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(-50%) scale(1);
-    }
-}
-
-/* Add snowflake styles */
-.snowflake {
-    position: fixed;
+            @keyframes leafGrow {
     top: -10px;
     color: white;
     animation: snowfall linear forwards;
@@ -144,6 +131,7 @@
         transform: translateY(100vh) rotate(360deg);
     }
 }
+
 
 
 
