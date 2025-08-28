@@ -1,11 +1,7 @@
 
 
 
-.leaf2 {
-    top: 150px;
-    left: 50%;
-    transform: translateX(-50%) rotate(45deg);
-    animation-delay: 2.4s;
+
 }
 
 @keyframes flowerGrow {
@@ -105,6 +101,7 @@
         transform: translateY(100vh) rotate(360deg);
     }
 }
+
 
 
 
