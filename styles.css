@@ -6,19 +6,6 @@
         transform: translate(-50%, -50%) rotate(var(--rotation)) scale(0);
     }
     100% {
-        opacity: 1;
-        transform: translate(-50%, -50%) rotate(var(--rotation)) scale(1);
-    }
-}
-
-@keyframes middlePetalBloom {
-    0% {
-        opacity: 0;
-        transform: translate(-50%, -50%) rotate(var(--rotation)) scale(0);
-    }
-    50% {
-        opacity: 0.5;
-        transform: translate(-50%, -50%) rotate(var(--rotation)) scale(1.2);
     }
     100% {
         opacity: 1;
@@ -77,6 +64,7 @@
         transform: translateY(100vh) rotate(360deg);
     }
 }
+
 
 
 
