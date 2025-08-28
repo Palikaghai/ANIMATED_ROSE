@@ -3,17 +3,6 @@
 
 
     
-        transform: translate(-50%, -50%) rotate(var(--rotation)) scale(0);
-    }
-    100% {
-    }
-    100% {
-        opacity: 1;
-        transform: translate(-50%, -50%) rotate(var(--rotation)) scale(1);
-    }
-}
-
-@keyframes outerPetalBloom {
     0% {
         opacity: 0;
         transform: translate(-50%, -50%) rotate(var(--rotation)) scale(0);
@@ -64,6 +53,7 @@
         transform: translateY(100vh) rotate(360deg);
     }
 }
+
 
 
 
