@@ -1,17 +1,6 @@
 
 
 
-    opacity: 0;
-    animation: leafGrow 1s ease-in-out forwards;
-}
-
-.leaf1 {
-    top: 100px;
-    left: 50%;
-    transform: translateX(-50%) rotate(-45deg);
-    animation-delay: 2.2s;
-}
-
 .leaf2 {
     top: 150px;
     left: 50%;
@@ -116,6 +105,7 @@
         transform: translateY(100vh) rotate(360deg);
     }
 }
+
 
 
 
