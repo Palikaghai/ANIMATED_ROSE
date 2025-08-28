@@ -4,10 +4,6 @@
 
 
 
-}
-
-            @keyframes leafGrow {
-    top: -10px;
     color: white;
     animation: snowfall linear forwards;
     pointer-events: none;
@@ -22,6 +18,7 @@
         transform: translateY(100vh) rotate(360deg);
     }
 }
+
 
 
 
