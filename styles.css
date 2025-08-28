@@ -1,7 +1,4 @@
 
-
-/* Outer petals */
-.outer-petal {
     width: 60px;
     height: 60px;
     animation: outerPetalBloom 2s ease-in-out forwards;
@@ -159,6 +156,7 @@
         transform: translateY(100vh) rotate(360deg);
     }
 }
+
 
 
 
