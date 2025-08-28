@@ -1,14 +1,5 @@
 
 
-
-
-              
-
-
-
- -50%) rotate(180deg) scale(0); animation-delay: 1.6s; }
-
-
 /* Outer petals */
 .outer-petal {
     width: 60px;
@@ -168,6 +159,7 @@
         transform: translateY(100vh) rotate(360deg);
     }
 }
+
 
 
 
